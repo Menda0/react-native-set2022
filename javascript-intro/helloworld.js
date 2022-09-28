@@ -97,4 +97,26 @@ jonhy.hobbies = ["surf", "futebol"]
 const jonhyClone1 = JSON.parse(JSON.stringify(jonhy))
 const jonhyClone2 = Object.assign({}, jonhy)
 // Suggested native way of deep clone, available only on specific javascript interpreters
-const jonhyClone3 = structuredClone(jonhy)
+// const jonhyClone3 = structuredClone(jonhy)
+
+function circleArea1(r){
+    return 3.14 * r * r
+}
+
+const circleArea2 = function(r){
+    return 3.14 * r * r
+}
+
+// Function can be assing to variables
+console.log("circleArea1 =",circleArea1(4))
+console.log("circleArea2 =", circleArea2(4))
+
+// Arrow functions (params) => {function body}
+const circleArea3 = (r) => {
+    return 3.14 * r * r
+}
+
+// One liners
+const circleArea4 = (r) => 3.14 * r * r
+// Can be used only if one parameter function 
+const cirlceArea5 = r => 3.14 * r * r
