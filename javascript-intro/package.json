@@ -13,5 +13,8 @@
     "ES6+\\"
   ],
   "author": "Marco Mendao",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
