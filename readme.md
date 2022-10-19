@@ -1,8 +1,8 @@
 ## References
 
 - [Whatsapp Group](https://chat.whatsapp.com/Fp0WsL9dtUP1qsqbePxmCd)
-- [Structured Clone](https://medium.com/nerd-for-tech/function-scope-block-scope-in-js-d29c8e7cd216)
-https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
+- [Block Scope Vs Function Clone](https://medium.com/nerd-for-tech/function-scope-block-scope-in-js-d29c8e7cd216)
+- [Structured Clone](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
 - [Block Scope VS Functional Scope](https://medium.com/nerd-for-tech/function-scope-block-scope-in-js-d29c8e7cd216)
 - [Async Programing](https://www.johnymiro.pt/posts/js-aynchronous-programming/)
 - [Running on Device](https://reactnative.dev/docs/running-on-device)
