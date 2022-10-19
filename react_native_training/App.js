@@ -7,111 +7,37 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {Text, SafeAreaView} from 'react-native'
+import ExampleComponent1 from './components/ExampleComponent1'
+import ExampleComponent2 from './components/ExampleComponent2' 
+import ExampleComponent3 from './components/ExampleComponent3';
+import ExampleComponent4 from './components/ExampleComponent4';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+const loremIpsum = `
+orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius quam ut lectus luctus, non tincidunt mi hendrerit. Fusce ullamcorper eget mi sed rutrum. Aliquam id mauris semper, suscipit elit et, tempus purus. Nulla eget purus sed elit iaculis ultrices. Integer accumsan vitae enim sed rutrum. Proin lorem dolor, consectetur vel ipsum quis, faucibus tempus mauris. Nunc tempor ligula ac diam laoreet commodo. Vivamus ornare, nulla vel mollis efficitur, mauris velit fermentum massa, ac dapibus ipsum erat at nisi. Suspendisse euismod augue fringilla, ultricies urna vitae, tempus diam. Vivamus sit amet eleifend nibh. Curabitur sed bibendum eros, at ultricies turpis. Sed odio quam, dapibus quis vehicula ac, elementum in mauris. Sed viverra euismod lorem, at suscipit purus tempor nec. Curabitur vel finibus ante. Suspendisse id viverra leo.
+Nulla aliquet purus ut rutrum molestie. Nunc accumsan odio quis purus viverra, eget mollis velit lacinia. Nam risus eros, tincidunt sed velit non, eleifend iaculis nunc. Vivamus nec tempor sem. Phasellus suscipit, enim nec tristique luctus, quam nibh tincidunt massa, id pellentesque lorem quam sit amet risus. Maecenas pretium magna quis odio lacinia semper. Aliquam auctor mattis nunc eu ullamcorper. Integer at metus ligula. Sed commodo pharetra mauris eget euismod. In hac habitasse platea dictumst. Phasellus lacus libero, congue et ante ac, malesuada aliquet dolor.
 
-/* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
- * LTI update could not be added via codemod */
-const Section = ({children, title}): Node => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
+Fusce ex velit, efficitur ut elementum vitae, tempus ut nulla. Mauris in nulla gravida, imperdiet odio ut, commodo odio. Nullam nec scelerisque urna. Nullam in dapibus odio. Nam quam risus, condimentum ac malesuada non, elementum in felis. Cras vel purus eleifend, molestie lectus non, rutrum est. Phasellus vel ligula semper, blandit purus non, sollicitudin diam. Ut volutpat feugiat turpis, nec tempus nisl vehicula at. Cras aliquam eget ipsum vitae euismod. Fusce non dolor nisl. Pellentesque eget nulla turpis.
 
-const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+Phasellus ut fringilla elit. Suspendisse vehicula est pulvinar suscipit lacinia. Aenean in sagittis lacus, id pellentesque risus. Morbi metus tellus, consequat sed feugiat at, fermentum at tortor. Pellentesque sodales quis ligula ac euismod. Quisque dapibus eget dolor eu lobortis. Ut at tempor tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+Aliquam erat volutpat. Nulla mollis porta rhoncus. Sed faucibus augue quis nibh auctor, sed commodo enim ullamcorper. Ut a dui urna. Fusce ligula nisi, sodales in tincidunt a, sagittis quis lacus. Nam facilisis non tortor et ultrices. Ut quis erat fringilla, tincidunt dui dictum, pretium nisl. Donec congue hendrerit lectus, non interdum mi laoreet nec. Quisque vulputate mattis auctor. Nunc ultrices metus quis facilisis suscipit. Donec eget quam diam.
+`
 
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-};
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
-
-export default App;
+export default class App extends React.Component{
+  render(){
+    return (
+      <SafeAreaView>
+        {/* Simple Component */}
+        {/* <ExampleComponent1 /> */}
+        {/* Simple Component with props */}
+        {/* <ExampleComponent2 message="Ola Lais" /> */}
+        {/* <ExampleComponent2 message="Ola Adhan" /> */}
+        {/* Simple Component using View */}
+        {/* <ExampleComponent3 message={loremIpsum}/> */}
+        {/* Simple Component with Scroll View */}
+        <ExampleComponent4 message={loremIpsum} />
+      </SafeAreaView>
+    )
+  }
+}
