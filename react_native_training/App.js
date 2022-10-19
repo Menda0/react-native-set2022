@@ -12,6 +12,7 @@ import ExampleComponent1 from './components/ExampleComponent1'
 import ExampleComponent2 from './components/ExampleComponent2' 
 import ExampleComponent3 from './components/ExampleComponent3';
 import ExampleComponent4 from './components/ExampleComponent4';
+import ExampleComponent5 from './components/ExampleComponent5';
 
 const loremIpsum = `
 orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius quam ut lectus luctus, non tincidunt mi hendrerit. Fusce ullamcorper eget mi sed rutrum. Aliquam id mauris semper, suscipit elit et, tempus purus. Nulla eget purus sed elit iaculis ultrices. Integer accumsan vitae enim sed rutrum. Proin lorem dolor, consectetur vel ipsum quis, faucibus tempus mauris. Nunc tempor ligula ac diam laoreet commodo. Vivamus ornare, nulla vel mollis efficitur, mauris velit fermentum massa, ac dapibus ipsum erat at nisi. Suspendisse euismod augue fringilla, ultricies urna vitae, tempus diam. Vivamus sit amet eleifend nibh. Curabitur sed bibendum eros, at ultricies turpis. Sed odio quam, dapibus quis vehicula ac, elementum in mauris. Sed viverra euismod lorem, at suscipit purus tempor nec. Curabitur vel finibus ante. Suspendisse id viverra leo.
@@ -36,7 +37,8 @@ export default class App extends React.Component{
         {/* Simple Component using View */}
         {/* <ExampleComponent3 message={loremIpsum}/> */}
         {/* Simple Component with Scroll View */}
-        <ExampleComponent4 message={loremIpsum} />
+        {/* <ExampleComponent4 message={loremIpsum} /> */}
+        <ExampleComponent5 />
       </SafeAreaView>
     )
   }

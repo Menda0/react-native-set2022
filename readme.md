@@ -14,6 +14,9 @@
 - [Images](https://reactnative.dev/docs/images)
 - [Touches](https://reactnative.dev/docs/handling-touches)
 
+## Slides
+- [Practice 1](https://docs.google.com/presentation/d/1SSqhlX9IgPXTjHL29Vb_QwgYUhcThhM-WgXFwQZW8Vs/edit?usp=sharing)
+
 ## Recordings
 
 - [Session 1](https://us06web.zoom.us/rec/share/A6HiI4MvS5ZMPBfEZGPUyqYFm678qbf0fY898UxfzsCuaCsZ0fUP20hg9M_2_2FL.hVTjOcnl9n9mSF5x)
