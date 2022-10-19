@@ -8,7 +8,12 @@ https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
 - [Running on Device](https://reactnative.dev/docs/running-on-device)
 - [Promise Any](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any)
 - [Promise All](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
-- [Promise AllSettled](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
+- [Promise AllSettled](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/
+allSettled)
+- [Flex Froggy, Flexbox game](https://flexboxfroggy.com/)
+- [Layout with flex box](https://reactnative.dev/docs/flexbox)
+- [Images](https://reactnative.dev/docs/images)
+- [Touches](https://reactnative.dev/docs/handling-touches)
 
 ## Recordings
 
