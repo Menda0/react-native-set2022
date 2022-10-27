@@ -13,6 +13,8 @@
 - [Layout with flex box](https://reactnative.dev/docs/flexbox)
 - [Images](https://reactnative.dev/docs/images)
 - [Touches](https://reactnative.dev/docs/handling-touches)
+- [Parent to child Comunitaction](https://medium.com/@jasminegump/passing-data-between-a-parent-and-child-in-react-deea2ec8e654)
+- [NFT Collections](https://drive.google.com/file/d/1r5uFyzC-X0_E_TMCjTiMk6eb-OUEk68P/view?usp=sharing)
 
 ## Slides
 - [Practice 1](https://docs.google.com/presentation/d/1SSqhlX9IgPXTjHL29Vb_QwgYUhcThhM-WgXFwQZW8Vs/edit?usp=sharing)
@@ -23,3 +25,4 @@
 - [Session 2](https://us06web.zoom.us/rec/share/jMqR_yLOQI--edcK7xE20j8pbjVXoZx6WKa_IryaHMkT9ZFGZ2HWheJWXszG_Nc.vFthnOBG9QT2QE2W)
 - [Session 3](https://us06web.zoom.us/rec/share/oYorS87MySme4BEfQ7PpRHITWFDyjew37wQMbbgNDhZPS70ZdRXdI7OvTek09Bvs.CDvEcLdoEplaaZ3g)
 - [Session 4](https://us06web.zoom.us/rec/share/rD6bx2hwpxuirf5oVZQTDd8E7KtNu3jOmNsErwB2Ml9qBxnUxmkf3K4DFIDms_Om.eYxlEWt_tMN5QpiL)
+- [Session 5](https://us06web.zoom.us/rec/share/p3Ex4A4YNfrJkEiiAoUTYR9O5OMk7FUSg-NFRV5ybt_IdaE9c7E-ikmROdC8n48m.6KidyMfWaVChzyU1)

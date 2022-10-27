@@ -1,7 +1,7 @@
 import React from "react";
 import {Text, TextInput, View} from "react-native"
 
-export default class ExampleComponent7 extends React.Component{
+export class ExampleComponent7 extends React.Component{
 
     constructor(props){
         super(props)
@@ -10,6 +10,8 @@ export default class ExampleComponent7 extends React.Component{
         this.state = {
             name: "Danilo Marques"
         }
+
+        console.log("Component initialized")
     }
 
     setName(newName){
@@ -18,7 +20,24 @@ export default class ExampleComponent7 extends React.Component{
         })
     }
 
+    componentWillMount(){
+        console.log("Component will mount ...")
+    }
+
+    componentDidMount(){
+        console.log("Component did mount")
+    }
+
+    componentWillUpdate(){
+        console.log("Component will update")
+    }
+
+    componentDidUpdate(){
+        console.log("Component did update")
+    }
+
     render(){
+        console.log("Did render ...")
         return(
             <View>
                 <Text>Hello {this.state.name}</Text>
