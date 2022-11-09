@@ -26,7 +26,7 @@ export default class App extends React.Component{
     return (
       <SafeAreaView>
         <SearchBox onChangeCriteria={(text) => this.changeCriteria(text)}/>
-        <ArtCollectionList searchCriteria={this.state.searchCriteria} />
+        <ArtCollectionList collections={data.collections} searchCriteria={this.state.searchCriteria} />
       </SafeAreaView>
     )
   }

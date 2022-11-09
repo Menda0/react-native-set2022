@@ -1,5 +1,5 @@
 import React from "react";
-import {View, Text} from "react-native"
+import {View, Text, Image} from "react-native"
 
 
 // This is a presentanional component
@@ -8,9 +8,7 @@ export class ArtCollectionItem extends React.Component{
     render(){
         return(
             <View>
-                <Image>Image</Image>
-                <Text>Title</Text>
-                <Text>Description</Text>
+                <Text>Collection Name: {this.props.collection.name}</Text>
             </View>
         )
     }
