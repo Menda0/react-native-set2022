@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {Button, Text, View} from "react-native"
 
 export function ExampleComponent9(){
@@ -7,6 +7,23 @@ export function ExampleComponent9(){
     // setCounter == this.setState({counter: ...})
     const [counter, setCounter] = useState(10)
 
+    // Its not an object
+    // Can t overload function
+    // componentDidMount(){}
+
+    // Component did mount
+    useEffect(() => {
+        console.log("Component did mount ...")
+    }, [])
+
+    // Component did update
+    useEffect(() => {
+        console.log("Component did update ...")
+    }, [counter])
+
+    console.log("Component did render ...")
+
+    // Method render() == return of my functional component
     return(
         <View>
             <Text>Count: {counter}</Text>

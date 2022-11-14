@@ -17,6 +17,8 @@
 - [NFT Collections](https://drive.google.com/file/d/1r5uFyzC-X0_E_TMCjTiMk6eb-OUEk68P/view?usp=sharing)
 - [Filter Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [UseHooks Library](https://usehooks.com/)
+- [React Navigation](https://mint-niece-ff1.notion.site/Navigation-da8a6db3349f4521a6b9790eae9095cb)
 
 ## Slides
 - [Practice 1](https://docs.google.com/presentation/d/1SSqhlX9IgPXTjHL29Vb_QwgYUhcThhM-WgXFwQZW8Vs/edit?usp=sharing)
@@ -29,3 +31,4 @@
 - [Session 4](https://us06web.zoom.us/rec/share/rD6bx2hwpxuirf5oVZQTDd8E7KtNu3jOmNsErwB2Ml9qBxnUxmkf3K4DFIDms_Om.eYxlEWt_tMN5QpiL)
 - [Session 5](https://us06web.zoom.us/rec/share/p3Ex4A4YNfrJkEiiAoUTYR9O5OMk7FUSg-NFRV5ybt_IdaE9c7E-ikmROdC8n48m.6KidyMfWaVChzyU1)
 - [Session 6](https://us06web.zoom.us/rec/share/Epd3bzTmoXUAXH6vOEFVP6S_HuMRRxZaOj56N2hKTbB0O34AjLefU9s2YowDPPiB.Kpz-ogF_j3grd2YZ)
+- [Session 7](https://us06web.zoom.us/rec/share/oNUH_KWsZjuBtzTpzsgibKyLfr4c3fBiVOT6Zov5H5YsR1Om2Yn_WBLTK59uo4pJ.OOJFYnNT_ryeWMGj)
