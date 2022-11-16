@@ -32,6 +32,7 @@ target 'react_native_training' do
   end
 
   post_install do |installer|
+    pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
     react_native_post_install(
       installer,
       # Set `mac_catalyst_enabled` to `true` in order to apply patches
