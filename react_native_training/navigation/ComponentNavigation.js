@@ -6,6 +6,8 @@ import ExampleComponent1Screen from "../containers/ExampleComponent1Screen";
 import ExampleComponent2Screen from "../containers/ExampleComponent2Screen";
 import ExampleComponent3Screen from "../containers/ExampleComponent3Screen";
 
+// Vertical Navigation
+
 const Stack = createNativeStackNavigator()
 
 const CompomentNavigation = () => {

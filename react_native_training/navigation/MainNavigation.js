@@ -7,6 +7,8 @@ import Icon from "react-native-vector-icons/FontAwesome"
 import CompomentNavigation from "./ComponentNavigation"
 
 
+// Horizontal Navigation
+
 const Tab = createBottomTabNavigator()
 const MainNavigation = () =>{
     return (

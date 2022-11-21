@@ -19,6 +19,9 @@
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [UseHooks Library](https://usehooks.com/)
 - [React Navigation](https://mint-niece-ff1.notion.site/Navigation-da8a6db3349f4521a6b9790eae9095cb)
+- [Use Navigation](https://reactnavigation.org/docs/navigating/)
+- [Flat List](https://reactnative.dev/docs/using-a-listview)
+- [Passing parameters to routes](https://reactnavigation.org/docs/params/)
 
 ## Slides
 - [Practice 1](https://docs.google.com/presentation/d/1SSqhlX9IgPXTjHL29Vb_QwgYUhcThhM-WgXFwQZW8Vs/edit?usp=sharing)
@@ -32,3 +35,4 @@
 - [Session 5](https://us06web.zoom.us/rec/share/p3Ex4A4YNfrJkEiiAoUTYR9O5OMk7FUSg-NFRV5ybt_IdaE9c7E-ikmROdC8n48m.6KidyMfWaVChzyU1)
 - [Session 6](https://us06web.zoom.us/rec/share/Epd3bzTmoXUAXH6vOEFVP6S_HuMRRxZaOj56N2hKTbB0O34AjLefU9s2YowDPPiB.Kpz-ogF_j3grd2YZ)
 - [Session 7](https://us06web.zoom.us/rec/share/oNUH_KWsZjuBtzTpzsgibKyLfr4c3fBiVOT6Zov5H5YsR1Om2Yn_WBLTK59uo4pJ.OOJFYnNT_ryeWMGj)
+- [Session 8](https://us06web.zoom.us/rec/share/06cR8UyArNTaN-N-4vGJ6PrLosTrgvcXr6SV9U6AWhOnt7LO7Bhcyo8GZcdnH2VC.dyFY-xsGLQjD2Whe)
