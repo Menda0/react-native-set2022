@@ -36,3 +36,4 @@
 - [Session 6](https://us06web.zoom.us/rec/share/Epd3bzTmoXUAXH6vOEFVP6S_HuMRRxZaOj56N2hKTbB0O34AjLefU9s2YowDPPiB.Kpz-ogF_j3grd2YZ)
 - [Session 7](https://us06web.zoom.us/rec/share/oNUH_KWsZjuBtzTpzsgibKyLfr4c3fBiVOT6Zov5H5YsR1Om2Yn_WBLTK59uo4pJ.OOJFYnNT_ryeWMGj)
 - [Session 8](https://us06web.zoom.us/rec/share/06cR8UyArNTaN-N-4vGJ6PrLosTrgvcXr6SV9U6AWhOnt7LO7Bhcyo8GZcdnH2VC.dyFY-xsGLQjD2Whe)
+- [Session 9](https://us06web.zoom.us/rec/share/kMMTTvxnETmozlF-uMBZMsLUV_4gt1jcJh830km86nAKgrfGj1RGBoK4XaXZGuBT.g8I574x5qdlQKQkH)
