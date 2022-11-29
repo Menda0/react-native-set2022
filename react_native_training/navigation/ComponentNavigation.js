@@ -6,6 +6,7 @@ import ExampleComponent1Screen from "../containers/ExampleComponent1Screen";
 import ExampleComponent2Screen from "../containers/ExampleComponent2Screen";
 import ExampleComponent3Screen from "../containers/ExampleComponent3Screen";
 import CounterScreen from "../containers/CounterScreen";
+import DogFactScreen from "../containers/DogFactsScreen";
 
 // Vertical Navigation
 
@@ -19,6 +20,7 @@ const CompomentNavigation = () => {
             <Stack.Screen name="Example Component 2" component={ExampleComponent2Screen} />
             <Stack.Screen name="Example Component 3" component={ExampleComponent3Screen} />
             <Stack.Screen name="Counter Screen" component={CounterScreen} />
+            <Stack.Screen name="Dog Facts" component={DogFactScreen} />
         </Stack.Navigator>
     )
 }
