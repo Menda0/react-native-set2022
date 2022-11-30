@@ -1,5 +1,5 @@
 import React, {useEffect} from "react"
-import {Text, ScrollView} from "react-native"
+import {Text, ScrollView, ActivityIndicator} from "react-native"
 import {useSelector, useDispatch} from "react-redux"
 import * as dogs from "../store/dogs.reducer"
 import axios from "axios"
@@ -44,7 +44,7 @@ function useDogFacts(){
         getDogFacts()
     }, [])
 
-    return {facts, error}
+    return {facts, error, isLoading}
 }
 
 function DogFactScreen(){
@@ -53,7 +53,7 @@ function DogFactScreen(){
     
     return (
         <ScrollView>
-            {isLoading && <Text>Fetching dog facts ...</Text>}
+            {isLoading && <ActivityIndicator style={styles.loading} />}
             {error && <Text>{error}</Text>}
             {facts.map(fact => <Text style={styles.factContainer}>{fact}</Text>)}
         </ScrollView>
@@ -62,6 +62,9 @@ function DogFactScreen(){
 
 const styles = {
     factContainer:{
+        padding: 20
+    },
+    loading:{
         padding: 20
     }
 }

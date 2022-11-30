@@ -14,6 +14,7 @@ export const reducer = (state=initialState, action) => {
             return {...state, error}
         case ACTION_TYPES.SET_ISLOADING:
             const {isLoading} = action.payload
+            console.log(isLoading)
             return {...state, isLoading}
         default:
             return state
